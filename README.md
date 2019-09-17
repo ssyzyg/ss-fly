@@ -13,9 +13,31 @@ ss-fly/ss-fly.sh -i connect2019 1024
 欢迎访问flyzy小站   ： https://www.flyzy2005.com
 你的ss链接： ss://YWVzLTI1Ni1jZmI6Y29ubmVjdDIwMTlANDcuYuMTYzLjEzNToxMDI0
 
-https://shadowsocks.org/en/download/clients.html
+客户端 https://shadowsocks.org/en/download/clients.html
+
+## 相关操作ssr命令
+
+启动：/etc/init.d/shadowsocks start
+
+停止：/etc/init.d/shadowsocks stop
+
+重启：/etc/init.d/shadowsocks restart
+
+状态：/etc/init.d/shadowsocks status
 
 
+配置文件路径：/etc/shadowsocks.json
+
+日志文件路径：/var/log/shadowsocks.log
+
+代码安装目录：/usr/local/shadowsocks
+
+5.卸载ssr服务
+
+./shadowsocksR.sh uninstall
+
+
+[via](https://www.flyzy2005.com/fan-qiang/shadowsocks/install-shadowsocks-in-one-command/)
 
 ## 交流群
 flyzy小站交流群：http://t.me/flyzyxiaozhan
