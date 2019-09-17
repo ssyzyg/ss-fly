@@ -2,7 +2,7 @@ yum install -y git
 
 git clone -b master https://github.com/ssyzyg/ss-fly
 
-ss-fly/ss-fly.sh connect2019 1024
+ss-fly/ss-fly.sh -i connect2019 1024
 
 
 
