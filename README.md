@@ -1,6 +1,9 @@
-removed
+yum install -y git
+git clone -b master https://github.com/ssyzyg/ss-fly
+ss-fly/ss-fly.sh connect2019 1024
 
-安心做affman
+
+
 
 ## 交流群
 flyzy小站交流群：http://t.me/flyzyxiaozhan
